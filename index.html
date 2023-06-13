@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversion</title>
+    <script src="/convertidor.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+    <p>
+        <h2>Conversor de moneda</h2>
+    </p>
+    <p>
+        <label for="valordolar">Indica el valor del dolar</label>
+    </p>
+    <p>
+    <input type="number" id="valordolar" step="0.01">
+    </p>
+    <p>
+        <label for="tipomoneda">convertir de </label>
+    <select name="" id="tipomoneda">
+    <option id="mxn" value="mxn">Pesos Mexicanos</option>
+    <option id="usd" value="usd">Dolares</option>
+    </select>
+</p>
+<p>
+    <label for="">Cantidad</label>
+</p>
+<p>
+    <input type="number" id="cantidad">
+</p>
+<p>
+<input onclick="convertir()" type="button" value="Convertir">
+</p>
+<p>
+    <label id="resultado" for="">Cantidad es:</label>
+
+</p>
+</div>
+</body>
+</html>
